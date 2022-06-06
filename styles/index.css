@@ -31,10 +31,30 @@
     margin-bottom: 2rem;
 }
 
-.pedidos-ya {
-    margin-top: 2rem;
-}
 
 .carousel-item {
-    height: 100vh;
+    height: 120vh;
+}
+
+footer  {
+    background-color: rgb(183, 183, 183);
+}
+
+.imagebox {
+    position: relative;
+    text-align: center;
+}
+
+.imagebox .imagebox-desc {
+    bottom: 40%;
+    font-size: 50px;
+    position: absolute;
+    width: 100%;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-footer {
+    background-color: rgb(156, 156, 156);
 }
